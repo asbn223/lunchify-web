@@ -32828,7 +32828,7 @@ n=A.z(p,o)
 n.H(0,k)
 n.H(0,A.ac(["title",k.i(0,"title")],p,o))
 A.pr(A.wm(n))
-m=n.aj(0,"body")?B.ah.w6(0,n.i(0,"body"),null):n
+m=n.aj(0,"body")&&typeof n.i(0,"body")!="string"?B.ah.w6(0,n.i(0,"body"),null):n
 k=J.f6(m)
 if(k.aj(m,"subtext"))l=k.i(m,"subtext")
 else{k=a.y
