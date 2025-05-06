@@ -32830,9 +32830,9 @@ j=a.y
 m=j.d
 n.H(0,A.ac(["title",m,"body",j.r],p,o))
 A.pr(A.wm(n))
-l=n.aj(0,"body")?B.am.Ap(0,n.i(0,"body"),null):n
+l=n.aj(0,"body")&&typeof n.i(0,"body")!="string"?B.am.Ap(0,n.i(0,"body"),null):n
 j=J.f6(l)
-k=j.aj(l,"subtext")?j.i(l,"subtext"):""
+k=j.aj(l,"subtext")?j.i(l,"subtext"):j.i(l,"body")
 j=$.b69()
 p=Date.now()
 o=m==null?"":m
